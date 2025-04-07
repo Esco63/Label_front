@@ -1,0 +1,63 @@
+/* Grundlegendes Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Menüleiste (NavBar) */
+  .navbar {
+    background-color: #A855F7; /* Lila Hintergrund für die Menüleiste */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    width: 50px;
+  }
+  
+  .navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .nav-links li {
+    display: inline;
+  }
+  
+  .navbar .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar .nav-links li a:hover {
+    background-color: #9333ea; /* Dunkleres Lila bei Hover */
+  }
+  
+  /* Dashboard-Inhalt */
+  .dashboard-content {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .dashboard-content h1 {
+    font-size: 36px;
+    color: #A855F7;
+  }
+  
+  .dashboard-content p {
+    font-size: 18px;
+    color: #333;
+  }
+  
